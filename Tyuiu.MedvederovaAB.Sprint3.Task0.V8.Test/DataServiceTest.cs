@@ -14,10 +14,11 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task0.V8.Test
             int startvalue = 1;
             int stopvalue = 10;
 
+
             double res = ds.GetMultiplySeries(value, startvalue, stopvalue);
 
 
-            double wait = 0;
+            double wait = 0.019;
             Assert.AreEqual(wait, res);
         }
     }

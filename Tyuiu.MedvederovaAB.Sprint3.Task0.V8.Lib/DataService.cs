@@ -10,7 +10,8 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task0.V8.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                ProductSeries = ProductSeries * (Math.Pow(value, i) * Math.Cos(4));
+
+                ProductSeries = ProductSeries * ((Math.Pow(value, i) + 1) * Math.Cos(4));
 
             }
             return Math.Round(ProductSeries, 3);
