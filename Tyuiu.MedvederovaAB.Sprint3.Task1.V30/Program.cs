@@ -29,6 +29,8 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task1.V30
             Console.WriteLine("Переменная T = " + value);
             Console.WriteLine("Старт шага = " + startvalue);
             Console.WriteLine("Конец шага = " + stopvalue);
+
+
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                    *");
             Console.WriteLine("*****************************************************************");

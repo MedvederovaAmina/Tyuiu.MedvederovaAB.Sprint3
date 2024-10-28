@@ -9,6 +9,8 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task1.V30.Test
         public void ValidGetSumSeries()
         {
             DataService ds = new DataService();
+
+
             double value = 0.5;
             int startvalue = 1;
             int stopvalue = 12;
