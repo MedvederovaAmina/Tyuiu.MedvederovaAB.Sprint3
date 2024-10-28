@@ -9,7 +9,7 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task1.V30.Lib
             double sumSeries = 1;
             while (startValue <= stopValue)
             {
-                sumSeries = sumSeries + (Math.Pow(value, startValue) + 5 / (startValue + 4)) * Math.Sin(value);
+                sumSeries = sumSeries + ((Math.Pow(value, startValue) + (5.0 / (startValue + 4.0))) * Math.Sin(value));
                 startValue++;
             }
             return Math.Round(sumSeries, 3);
