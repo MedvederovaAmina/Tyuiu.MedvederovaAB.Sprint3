@@ -9,9 +9,9 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task7.V2.Test
         public void ValidGetMassFunction()
         {
             DataService ds = new DataService();
-            int startvalue = -5;
-            int stopvalue = 5;
-            int len = stopvalue - startvalue + 1;
+            int startValue = -5;
+            int stopValue = 5;
+            int len = (stopValue - startValue) + 1;
             double[] valueWaitArray;
             valueWaitArray = new double[len];
             valueWaitArray[0] = 59.49;
@@ -27,7 +27,7 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task7.V2.Test
             valueWaitArray[10] = 59.60;
             double[] res;
             res = new double[len];
-            res = ds.GetMassFunction(startvalue, stopvalue);
+            res = ds.GetMassFunction(startValue, stopValue);
             CollectionAssert.AreEqual(valueWaitArray, res);
 
         }

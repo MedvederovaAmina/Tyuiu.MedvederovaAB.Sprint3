@@ -11,10 +11,16 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task7.V2.Lib
             valueArray = new double[len];
             double y;
             int count = 0;
-            for (int x = stopValue; x <= stopValue; x++)
+            for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round((Math.Cos(x)/(x - 0.7)) - Math.Sin(x) * 12.0 * x + 2, 2);
-                valueArray[count++] = y;
+                if (x - 0.7 == 0)
+                {
+                    valueArray[count] = 0;
+                    count++;
+                    continue;
+                }
+                y = Math.Round(Math.Cos(x) / (x - 0.7) - Math.Sin(x) * 12.0 * x + 2.0, 2);
+                valueArray[count] = y;
                 count++;
             }
             return valueArray;
