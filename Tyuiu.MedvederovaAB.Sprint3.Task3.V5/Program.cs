@@ -28,6 +28,7 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task3.V5
             char replaceable = 'a';
             char replacement = '*';
 
+
             Console.WriteLine("Исходная строка = " + value);
             Console.WriteLine("Символ, который нужно заменить = " + replaceable);
             Console.WriteLine("Символ, на который нужно заменить = " + replacement);

@@ -9,6 +9,7 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task3.V5.Test
         public void ValidReplaceCharInString()
         {   
             DataService ds = new DataService();
+
             string value = " fifa al fall ";
             char replaceable = 'a';
             char replacement = '*';
