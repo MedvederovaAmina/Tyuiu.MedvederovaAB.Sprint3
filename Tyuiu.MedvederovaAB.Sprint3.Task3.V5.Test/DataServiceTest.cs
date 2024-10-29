@@ -7,7 +7,7 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task3.V5.Test
     {
         [TestMethod]
         public void ValidReplaceCharInString()
-        {   
+        {
             DataService ds = new DataService();
 
             string value = " fifa al fall ";
@@ -16,7 +16,6 @@ namespace Tyuiu.MedvederovaAB.Sprint3.Task3.V5.Test
             string res = ds.ReplaceCharInString(value, replaceable, replacement);
             string wait = " fif* *l f*ll ";
             Assert.AreEqual(wait, res);
-
         }
     }
 }
